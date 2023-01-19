@@ -1,0 +1,11 @@
+node(){
+stage("git clone"){
+checkout scmGit(branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/MaheshBhargav26/rentalcarsv1.2.git']])
+}
+stage("maven build"){
+sh "mvn clean install"
+
+
+}
+
+}
