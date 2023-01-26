@@ -20,3 +20,4 @@ stage("Push docker image to ECR"){
                 dockerImage.push('latest')
               }
 }
+}
