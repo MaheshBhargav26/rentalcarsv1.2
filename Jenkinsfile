@@ -25,3 +25,4 @@ stage("Push docker image to ECR"){
 
 
 }
+}
