@@ -8,7 +8,3 @@ RUN rm -rf /usr/local/tomcat/webapps/*
 COPY --from=BUILD_IMAGE rentalcarsv1.2/target/RentalCars.war /usr/local/tomcat/webapps/ROOT.war
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
